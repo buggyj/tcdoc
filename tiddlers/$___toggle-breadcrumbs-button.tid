@@ -1,0 +1,22 @@
+created: 20140227154229024
+creator: TonGerner
+description: Toggle breadcrumbs on/off
+modified: 20140908155659912
+modifier: TonGerner
+tags: $:/tags/PageControls button breadcrumbs
+title: $:/_toggle-breadcrumbs-button
+type: null
+
+<$fieldmangler tiddler="$:/_stylesheet/breadcrumbs"><$list filter="[[$:/_stylesheet/breadcrumbs]tag[$:/tags/stylesheet]]"><$button message="tm-remove-tag" title="Hide breadcrumbs" param="$:/tags/stylesheet" class=<<tv-config-toolbar-class>>>{{$:/_images/breadcrumbs-off}}
+<$list filter="[<tv-config-toolbar-text>prefix[yes]]">
+<$text text="breadcrumbs"/>
+</$list>
+</$button></$list>
+<$list filter="[[$:/_stylesheet/breadcrumbs]!tag[$:/tags/stylesheet]]"><$button message="tm-add-tag" title="Show breadcrumbs" param="$:/tags/stylesheet" class=<<tv-config-toolbar-class>>>{{$:/_images/breadcrumbs-on}}
+<$list filter="[<tv-config-toolbar-text>prefix[yes]]">
+<$text text="breadcrumbs"/>
+</$list>
+</$button></$list>
+</$fieldmangler>
+
+

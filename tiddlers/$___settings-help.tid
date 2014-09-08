@@ -1,0 +1,22 @@
+created: 20140616162513097
+creator: TonGerner
+modified: 20140725185236099
+modifier: TonGerner
+title: $:/_settings-help
+type: null
+
+<<<
+''Note:''<br>You can enter CSS values in all allowed units, e.g. `%`, `px`, or `em`.
+<<<
+
+|Item|Entry |Description |Default |h
+|Breadcrumbs|Max. # of 'Breadcrumbs'  |Maximum number of displayed breadcrumbs| 6 |
+|~|Left 'Breadcrumbs'  |Start (from the left) of the breadcrumbs| 20px |
+|~|Top 'Breadcrumbs' |Start (from the top) of the breadcrumbs| 5px |
+|~|Height 'Breadcrumbs' |Room for 2 rows of breadcrumbs | 45px |
+|Tiddler|Top padding tiddler |Top padding of tiddler | 0px |
+|~|Spacing title - 'Tiddler toolbar' |Distance between toolbar and title of tiddler | 1.3em |
+|~|Size of tiddler buttons |Size of buttons in tiddler toolbar | 0.7em |
+|~|Button spacing 'Tiddler toolbar' |Distance between buttons of tiddler toolbar | 10px |
+|Layout|Top Sidebar|Start (from the top) of the Sidebar| 0px |
+|~|Top story-river|Start (from the top) of the story-river| 70px |

@@ -1,0 +1,12 @@
+created: 20140228165814808
+creator: TonGerner
+modified: 20140710141410525
+modifier: TonGerner
+tags: $:/tags/stylesheet breadcrumbs
+title: $:/_stylesheet/no-breadcrumbs
+type: null
+
+/* DEFAULT: HIDDEN BREADCRUMBS */
+.tw-breadcrumbs {
+     display: none;
+}

@@ -1,0 +1,30 @@
+changecount: 3
+created: 20131127073000000
+creator: Your Name
+modified: 20140907154742577
+modifier: BJ
+tags: TCdoc CKEditor [[Quick Start and Basics]]
+title: Adding Tags
+type: text/vnd.tiddlywiki
+
+The default configuration can be extended to allow tags to be added to clips and clipped tids. This is achieved thru a configuration tiddler, namely the //~TiddlyClipConfig//, here is an example: 
+
+<hr style="border-style: dotted;" />
+
+!Default
+
+|!Category|!Tip|!Tags|!Rule Tid|!Modes|
+|tid|highlight a tid title|clippedtid|defaultTip|tiddlers|
+|recipies||recipies|defaultSnip||
+|quots||quots|defaultSnip||
+
+
+<hr style="border-style: dotted;" />
+
+
+The default behaviour is modified by this 'Default' table. The items that appear in the 'Category' column will appear in the browser's context menus. What is shown is the default operation 'tid' being replaced with a new operation (which is the same as the default with the addition of a tag 'clippedtid'), and two new operations being&nbsp; defined. Detail about //~TiddlyClipConfig// are given here [[TiddlyClipConfig|The TiddlyClipConfig]].
+
+To use this example, rename the tiddler [[TiddlyClipConfig-BasicExtended]] to TiddlyClipConfig, then reload this page, then dock the addon again.
+
+----
+

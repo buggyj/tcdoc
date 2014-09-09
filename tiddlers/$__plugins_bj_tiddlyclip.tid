@@ -1,13 +1,13 @@
 author: Jeffrey Wilkinson (aka BJ)
 core-version: >=5.0.16
-created: 20140908150651567
+created: 20140909100502548
 dependents: 
 description: include web content
 plugin-type: plugin
-source: https://github.com/buggyj/tiddlyclip
+source: https://github.com/buggyj/tiddlyclip-plugin
 title: $:/plugins/bj/tiddlyclip
 type: application/json
-version: 0.0.5-alpha
+version: 0.0.6-alpha
 
 {
     "tiddlers": {

@@ -1,13 +1,13 @@
 changecount: 18
 created: 20131128014900000
 creator: Your Name
-modified: 20140824154238479
+modified: 20140909115720537
 modifier: BJ
 tags: TCdoc CKEditor [[How It Works]]
 title: The TiddlyClipConfig
 type: null
 
-When the Addon  docks to a tiddlywiki it reads the TiddlyClipConfig tiddler, and uses it's contents to populate the TC entry in the browsers context menu, forming the TC interface.The section headings form list in the context menu from which one is selected as the Current Section; a star appears before the Current Section. The categories names from the Current Section table are also listed within the context menu, and click one will start a Clip Action.
+When the Addon  docks to a tiddlywiki it reads the TiddlyClipConfig tiddler, and uses its contents to populate the TC entry in the browsers context menu, forming the TC interface.The section headings form list in the context menu from which one is selected as the Current Section; a star appears before the Current Section. The categories names from the Current Section table are also listed within the context menu, and click one will start a Clip Action.
 Within the //~TiddlyClipConfig// tid, sections are used to refer to configuration tables and visual break the //~TiddlyClipConfig// into manageable units. A section begins with 'title' line, the first section must be 'default'. Each section contains one configuration table:
 
 

@@ -1,5 +1,5 @@
 created: 20140324020417349
-modified: 20140907153853477
+modified: 20140909100835552
 tags: TCdoc [[Quick Start and Basics]]
 title: Try It Now
 type: null
@@ -8,7 +8,7 @@ To tryout Tiddlyclip, simply open the firefox Add-ons manager, clip on the exten
 <br>
 https://github.com/buggyj/tiddlyclip/raw/master/tiddlyclip.xpi
 <br>
-wait for the message to appear and clip the install now button
+wait for the message to appear and click the install now button
 
 Once the add-on is installed return to this tiddlywiki, right click the mouse and click 'dock here'.  Tiddlyclip is now ready to use with this tiddlywiki.
 

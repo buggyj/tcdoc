@@ -1,5 +1,5 @@
 created: 20140724134209124
-modified: 20140907074928857
+modified: 20140909115645080
 tags: [[Beyond The Basics]]
 title: Building Configurations -Part 2
 type: text/vnd.tiddlywiki
@@ -21,7 +21,7 @@ This example shows a configuration that captures a screen shot of a webpage, pag
 <!---------------------------------------------------------------------------------------------------->
 <$reveal type='match' state='$:/state/tab<<currentTiddler>>' text='The RuleTid'>
 
-In this example 2 tiddlers will be created. The first tiddler created is a screen capture, and stores content to an image tiddler, and we can see that the type is set appropriately in the 'Field initials' column. The title of the tiddler will take it's name from the name of the webpage that we are clipping (as before), with the addition of '/image' appended. 
+In this example 2 tiddlers will be created. The first tiddler created is a screen capture, and stores content to an image tiddler, and we can see that the type is set appropriately in the 'Field initials' column. The title of the tiddler will take its name from the name of the webpage that we are clipping (as before), with the addition of '/image' appended. 
  
 In the body entry of the second rule, we have:
 

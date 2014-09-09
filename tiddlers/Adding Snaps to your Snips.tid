@@ -1,12 +1,11 @@
 created: 20140907175716716
-modified: 20140908153800312
+modified: 20140909064329385
 tags: [[Quick Start and Basics]]
 title: Adding Snaps to your Snips
 type: text/vnd.tiddlywiki
 
-Tiddlyclip includes the ability to take screenshots or 'snaps'. This facility can be used by adding a new rule to the tiddlyclip config that is slightly different to the snip rule. Here we add a rule called defaultSnap, and add the mode 'snap30' where 'snap' is the instruction to take a screen shot and 30 in the linear % size for the resultant image. 
-added this row to the tiddlyclipconfig to use it.
+Tiddlyclip includes the ability to take screenshots or 'snaps'. This facility has adding by including a new action to the tiddlyclip config that is slightly different to the snip action. Here we have add a rule called defaultSnap, and add the mode 'snap30' where 'snap' is the instruction to take a screen shot and 30 in the linear % size for the resultant image. 
 
 |!Category|!Tip|!Tags|!Rule Tid|!Modes|
-|Snap|copy||[[defaultSnap]]|snap30|
+|Snap|screen sot||[[defaultSnap]]|snap30|
 

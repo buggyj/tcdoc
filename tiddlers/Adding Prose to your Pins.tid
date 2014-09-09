@@ -1,5 +1,5 @@
 created: 20140907180900340
-modified: 20140908154127549
+modified: 20140909070044853
 tags: [[Quick Start and Basics]]
 title: Adding Prose to your Pins
 type: text/vnd.tiddlywiki
@@ -8,3 +8,5 @@ Tiddlyclip has the facility to prompt the user for text input as part of a clip 
 
 |!Category|!Tip|!Tags|!Rule Tid|!Modes|
 |pinAndProse|pin it||[[defaultPin]]|userstring|
+
+The mode 'userstring' tells the addon to open a dialogue so that text can be entered

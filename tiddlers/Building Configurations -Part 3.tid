@@ -1,5 +1,5 @@
 created: 20140726115713090
-modified: 20140907160720767
+modified: 20140909064440440
 tags: [[Beyond The Basics]]
 title: Building Configurations -Part 3
 type: text/vnd.tiddlywiki
@@ -11,7 +11,7 @@ This example adds selected text to the previous example, the TiddlyClipConfig is
 <!------------------------------------------------------------------------------------->
 <$reveal type='match' state='$:/state/tab<<currentTiddler>>' default='The RuleTid' text='The RuleTid'>
 
-The @text variable needs to be added to the body entry In the rule table. However this would make the entry rather long and hard to read and so 'rule detail' tiddly is used to hold the entry details, and the name of this tiddler is placed  in the RuleTid.
+The @text variable needs to be added to the body entry In the rule table. However this would make the entry rather long and hard to read and so a 'body detail' tiddly is used to hold the entry details, and the name of this tiddler is placed  in the RuleTid.
 
 
 !!Contents of the tiddler SnapRule

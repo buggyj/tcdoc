@@ -1,0 +1,37 @@
+created: 20141006145230947
+modified: 20141006145824750
+module-type: macro
+title: macrotest
+type: application/javascript
+
+/*\
+title: $:/plugins/bj/tiddlyclip/plaintext.js
+type: application/javascript
+module-type: macro
+\*/
+(function(){
+/*jslint node: true, browser: true */
+/*global $tw: false */
+"use strict";
+/*
+Information about this macro
+returns value of key in a data json tiddler
+note that macros are not connected with the refresh mechanism -use with caution.
+*/
+exports.name = "plaintext";
+
+exports.params = [
+	{ name: "title" }
+];
+/*
+Run the macro
+*/
+exports.run = function(title) {
+	try{
+		return  this.wiki.renderTiddler("text/plain",title,{parentWidget: this}).replace(/\n/g,"<br/>");
+
+	} catch(e) {
+		return "";
+	}
+}
+})();

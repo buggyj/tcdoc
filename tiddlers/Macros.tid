@@ -1,5 +1,5 @@
 created: 20140819152259221
-modified: 20140825162112076
+modified: 20141010121442096
 tags: TCdoc Reference
 title: Macros
 type: null
@@ -20,5 +20,5 @@ There are a number of built-in and extending macros
 |!Macro|!Purpose|
 |htmlToTW2(html-text)|convert text from html to tw2 - experimental |
 |makeReadable(html-text)|restyle html formatted text - port of the reability library|
-|tomultid(pluginTid,Tid)|place Tid inside a plugin|
+|sublink(path)|return relative path if path is local to current tw location|
 

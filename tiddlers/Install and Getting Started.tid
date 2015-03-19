@@ -1,0 +1,22 @@
+created: 20140323114449300
+modified: 20150224143208906
+tags: TCdoc [[Quick Start and Basics]]
+title: Install and Getting Started
+type: null
+
+!!Installation
+TC comes in two halves, the TW plugin contained in this TW  and the browser Addon. Currently only Firefox is supported, Support for Chrome is planned. 
+
+!!!Install the Browser Addon
+>{{Installing the Firefox Addon}}
+
+!!!Install the TW plugin
+
+>Drag the following link onto your tiddlywiki to install)- [[$:/plugins/bj/tiddlyclip]] and click the import button, then reload your tiddlywiki.
+
+!!Getting Started
+!!!Dock to this Tiddlywiki
+>Go to the tiddlywiki  you are going to use with tiddlycilp. {{How To Dock}}
+
+!!!Example of use
+>{{Tiddlyclip Example Use}}

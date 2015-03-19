@@ -1,0 +1,6 @@
+created: 20140920130711600
+modified: 20140920130746512
+title: titlerule
+type: text/vnd.tiddlywiki
+
+/embed/((*@pageRef/#rule/#term*))

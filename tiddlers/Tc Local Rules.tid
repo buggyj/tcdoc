@@ -1,0 +1,12 @@
+created: 20141211004159957
+modified: 20141218120538154
+tags: 
+title: Tc Local Rules
+type: text/vnd.tiddlywiki
+
+!Localclips
+|!Category|!Tip|!Tags|!Rule Tid|!Modes|
+|localmusic|make tiddler with mp3||[[localtwmp3]]|linkLocal|
+|localjpeg|make tiddler with jpeg||[[localtwjpeg]]|linkLocal|
+|localpng|make tiddler with jpeg||[[localtwpng]]|linkLocal|
+|localpdf|make tiddler with pdf||[[localtwpdf]]|linkLocal|

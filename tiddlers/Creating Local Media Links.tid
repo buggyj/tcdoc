@@ -1,0 +1,14 @@
+created: 20141211004934491
+modified: 20141218162453368
+tags: [[Application Notes]]
+title: Creating Local Media Links
+type: text/vnd.tiddlywiki
+
+!Installation 
+The table of rules in [[Tc Local Rules]] are use to create external image and other media tiddlers. The rules create relative addresses if the files are located with the docked tiddlywiki (in the same or in sub folder to the docked tiddlywiki).
+
+To use append the contents of  [[Tc Local Rules]] to your TiddlyClipConfig tiddler then copy (drag and drop or clip) the rule tiddlers referenced by this table into your tiddlywiki, then reload your tiddlywiki and re-dock it. Then right clip and select 'Tc Local Rules' from the '~TiddlyClip Setup' sub menu. 
+
+!Example usage
+Use firefox to browse files on you computer (linux type 'file:///' into the location bar, windows it is 'file:///c/') place the curser over a filename then right click and apply one of the rules from the 'Tiddlyclip using Tc Local Rules' submenu.
+ 

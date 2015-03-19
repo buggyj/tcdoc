@@ -1,0 +1,7 @@
+created: 20141221190423853
+modified: 20141222141017399
+tags: 
+title: Tiddlyclip Example Use
+type: text/vnd.tiddlywiki
+
+To use,  go to a webpage in different tab but in the same browser window , select some content, right click  the mouse, put the pointer over "tiddlyclip as", a submenu should appear, click on  "snip". A tiddler will now have been created containing the  clip. Come back to this Tiddlywiki and click on the 'recent' tab  on the right hand side (or at the top of the page if you have a small screen) to see a link to the new tiddler

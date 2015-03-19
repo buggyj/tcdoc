@@ -1,0 +1,15 @@
+changecount: 4
+created: 20141221180538194
+creator: BuggyJay
+modified: 20141221180611047
+modifier: BuggyJay
+tags: TCdoc CKEditor [[Quick Start and Basics]]
+title: More About TiddlyClip
+type: null
+
+!!Beyond the Basics
+
+TC enables the user to utilise the power of TW to organise clips in a flexible manner, so that different content can be organised in different ways. The aim is to help the user to access the knowledge that is contained on the Web more easily.  The clipping operation can be configured to control tiddler titles, add tags and manage the insertion of content (adding TW text, see [[Rich Clips|Rich Clip Template]]). The user can create a number of configuration rules, these rules are organised as tables in the TW. (see [[Adding Tags to your Clips]], Building Configurations [[Part 1|Building Configurations -Part 1]]  [[Part 2|Building Configurations -Part 2]]   [[Part 3|Building Configurations -Part 3]] and the [[How It Works]]).
+
+!!Safety
+In its default mode, any raw html clipped by the Addon is sanitized before being pass to the tiddlywiki to minimise security risks.

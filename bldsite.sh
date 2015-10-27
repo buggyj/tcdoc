@@ -5,7 +5,7 @@
 # Set up the build output directory
 
 if [  -z "$TW5_BUILD_OUTPUT" ]; then
-    TW5_BUILD_OUTPUT=../../../jermolene.github.com
+    TW5_BUILD_OUTPUT=.
 fi
 
 if [  ! -d "$TW5_BUILD_OUTPUT" ]; then
@@ -41,7 +41,7 @@ ln -s  tiddlywiki.info.alone tiddlywiki.info
 node ../../tiddlywiki.js \
 	. \
 	--verbose \
-	--rendertiddler $:/core/save/all $TW5_BUILD_OUTPUT/Tclip.html text/plain \
+	--rendertiddler $:/core/save/all $TW5_BUILD_OUTPUT/tcdoc.html text/plain \
 	|| exit 1
 
 

@@ -1,7 +1,7 @@
 changecount: 7
 created: 20131214050600000
 creator: BuggyJay
-modified: 20150307131256214
+modified: 20151022200936333
 modifier: BuggyJay
 tags: TCdoc Reference
 title: Installing the Firefox Addon
@@ -10,7 +10,7 @@ type: null
 Select the Add-ons page from the firefox top bar tools->Add-ons, or click the menu icon {{MenuIcon}}then the addon icon (the add-on page will appear)
  <br> <br>
 Drag and drop this link into the extension panel:
-https://github.com/buggyj/tiddlyclip/raw/0.0.8/tiddlyclip.xpi
+https://github.com/buggyj/tiddlyclip/blob/master/tiddlyclip-0.0.9-fx%2Ban.xpi
  <br> <br>
 wait for the message to appear and click the install now button
  <br> <br>

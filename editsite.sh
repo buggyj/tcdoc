@@ -14,7 +14,7 @@ rm tiddlywiki.info
 ln -s  tiddlywiki.info.web tiddlywiki.info 
 node ../../tiddlywiki.js \
 	--verbose \
-	--server 8086 $:/core/save/all \
+	--server 8080 $:/core/save/all \
 	|| exit 
 
 
